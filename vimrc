@@ -44,11 +44,9 @@ if has("autocmd")
 
       autocmd Syntax gitcommit setlocal textwidth=74
 	  set number
-
 	  autocmd GUIEnter * set vb t_vb= " for your GUI
 	  autocmd VimEnter * set vb t_vb=
-	  
-	  execute pathogen#infect()
+	  call pathogen#infect()
 	  
 endif " has("autocmd")
 
