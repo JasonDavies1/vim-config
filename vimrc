@@ -15,6 +15,8 @@ syntax on                       " turn syntax highlighting on by default
 set t_Co=256			" Use 256 colors in terminal"
 colorscheme kuroi	
 
+set tabstop=4			" Tab size 4
+
 " Show EOL type and last modified timestamp, right after the filename
 set statusline=%<%F%h%m%r\ [%{&ff}]\ (%{strftime(\"%H:%M\ %d/%m/%Y\",getftime(expand(\"%:p\")))})%=%l,%c%V\ %P
 
